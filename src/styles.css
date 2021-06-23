@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  background: #343a40;
+}
+.container {
+  background: rgb(255, 255, 255);
+  width: 250px;
+  transform: translate(50% -50%);
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  border-radius: 5px;
+  padding: 20px;
+}
+.password {
+  width: 80%;
+  padding: 20px 20px;
+}
+.alert {
+  background: rgba(248, 17, 17, 0.507);
+  height: 25px;
+  width: 98%;
+  font-size: 20px;
+  display: none;
+}
+.alertShift {
+  background: rgba(248, 17, 17, 0.507);
+  height: 45px;
+  width: 98%;
+  font-size: 20px;
+  display: none;
+}
